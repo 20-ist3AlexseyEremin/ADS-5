@@ -90,7 +90,7 @@ void TPQueue<T>::print() const {
         std::cout << temp->data << "␣";
         temp = temp->next;
     }
-    std::cout << endl::std;
+    std::cout << std::endl;
 }
 
 
